@@ -1,0 +1,32 @@
+{
+  "name": "smart-search-job",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --filter @smart-search-job/web dev",
+    "dev:all": "pnpm -r dev",
+    "build": "pnpm -r build",
+    "build:web": "pnpm --filter @smart-search-job/web build",
+    "test": "pnpm -r test",
+    "test:unit": "pnpm --filter @smart-search-job/web test:unit",
+    "test:integration": "pnpm --filter @smart-search-job/web test:integration",
+    "test:e2e": "pnpm --filter @smart-search-job/web test:e2e",
+    "lint": "pnpm -r lint",
+    "typecheck": "pnpm -r typecheck",
+    "db:migrate": "pnpm --filter @smart-search-job/web db:migrate",
+    "db:seed": "pnpm --filter @smart-search-job/web db:seed",
+    "supabase:functions": "pnpm --filter @smart-search-job/supabase dev"
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "devDependencies": {
+    "vercel": "^59.10.0"
+  }
+}
