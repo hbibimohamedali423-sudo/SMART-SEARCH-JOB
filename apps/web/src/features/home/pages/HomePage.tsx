@@ -1,5 +1,3 @@
-import { Link } from 'react-router-dom'
-import { Button } from '@/components/ui/Button'
 import { Card, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card'
 
 export function HomePage() {
@@ -20,14 +18,6 @@ export function HomePage() {
               Build your profile, discover opportunities, get matched with ideal jobs,
               and create personalized applications.
             </p>
-            <div className="mt-10 flex items-center justify-center gap-4">
-              <Button size="lg" asChild>
-                <Link to="/register">Get Started</Link>
-              </Button>
-              <Button size="lg" variant="outline" asChild>
-                <Link to="/jobs">Browse Jobs</Link>
-              </Button>
-            </div>
           </div>
         </div>
       </section>
@@ -105,15 +95,6 @@ export function HomePage() {
           <p className="mt-4 text-lg text-primary-100">
             Join thousands of professionals who found their dream jobs with SMART-SEARCH-JOB
           </p>
-          <div className="mt-10">
-            <Button
-              size="lg"
-              variant="secondary"
-              asChild
-            >
-              <Link to="/register">Create Free Account</Link>
-            </Button>
-          </div>
         </div>
       </section>
     </div>
