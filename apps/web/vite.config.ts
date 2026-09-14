@@ -11,6 +11,11 @@ export default defineConfig({
   },
   server: {
     port: 3000,
+    host: '0.0.0.0',
+    allowedHosts: [
+      'work-1-esknbwngcirboxwv.prod-runtime.all-hands.dev',
+      'work-2-esknbwngcirboxwv.prod-runtime.all-hands.dev',
+    ],
     proxy: {
       '/api': {
         target: 'http://localhost:54321',

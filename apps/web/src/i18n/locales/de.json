@@ -3,10 +3,105 @@
     "appName": "SMART-SEARCH-JOB"
   },
   "nav": {
-    "home": "Startseite"
+    "home": "Start"
   },
   "loading": {
     "title": "Wird geladen",
     "description": "Bitte warten Sie..."
+  },
+  "hero": {
+    "badge": "KI-gestützte Karriereplattform",
+    "title": {
+      "prefix": "Finde deinen perfekten",
+      "gradient": "Job",
+      "suffix": "mit KI"
+    },
+    "subtitle": "SMART-SEARCH-JOB ist eine KI-gestützte internationale Jobsuch- und Bewerbungsplattform. Erstelle dein Profil, entdecke Chancen, finde passende Jobs und erstelle personalisierte Bewerbungen.",
+    "ctaPrimary": "Plattform entdecken",
+    "ctaSecondary": "Funktionen ansehen",
+    "stats": {
+      "languages": "Sprachen",
+      "matching": "KI-Matching",
+      "rtl": "RTL bereit"
+    }
+  },
+  "how": {
+    "eyebrow": "So funktioniert's",
+    "title": "In vier Schritten vom Profil zur Bewerbung",
+    "subtitle": "Ein klarer Weg vom Aufbau deiner beruflichen Identität bis zu deiner nächsten Position.",
+    "steps": {
+      "build": {
+        "title": "Profil erstellen",
+        "description": "Erstelle ein professionelles Profil mit deinen Fähigkeiten, Erfahrungen und Karrierepräferenzen."
+      },
+      "discover": {
+        "title": "Jobs entdecken",
+        "description": "Erkunde einen globalen Strom von Stellen mit intelligenter Filterung."
+      },
+      "matched": {
+        "title": "Match erhalten",
+        "description": "KI analysiert dein Profil anhand von Rollen, um die besten Übereinstimmungen zu finden."
+      },
+      "apply": {
+        "title": "Klüger bewerben",
+        "description": "Erstelle mit KI-Unterstützung maßgeschneiderte Lebensläufe, Anschreiben und Nachrichten."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Fähigkeiten",
+    "title": "Eine Plattform für die Zukunft der Arbeit",
+    "subtitle": "Alles, was du brauchst, um deine Karriere voranzutreiben – in einem modernen Arbeitsbereich.",
+    "aiMatching": {
+      "title": "KI-Fähigkeiten-Matching",
+      "description": "Intelligente Algorithmen vergleichen dein Profil mit den Anforderungen der Stelle für genaue, transparente Übereinstimmungen."
+    },
+    "globalJobs": {
+      "title": "Globaler Job-Stream",
+      "description": "Verbinde dich mit Jobquellen weltweit mit Normalisierung und Deduplizierung."
+    },
+    "smartApps": {
+      "title": "Intelligente Bewerbungen",
+      "description": "Generiere job-spezifische Unterlagen und verfolge jede Bewerbung in einem Dashboard."
+    },
+    "careerAssistant": {
+      "title": "Karriere-Assistent",
+      "description": "Ein KI-Assistent, der Fragen beantwortet und deine Jobsuche begleitet."
+    },
+    "profileAI": {
+      "title": "Profil-Intelligenz",
+      "description": "Einblicke und Vorschläge zur Stärkung deiner beruflichen Präsenz und Sichtbarkeit."
+    },
+    "privacy": {
+      "title": "Datenschutz zuerst",
+      "description": "Deine Daten sind durch Row-Level-Security mit eigentumsbasiertem Zugriffsschutz gesichert."
+    }
+  },
+  "cta": {
+    "badge": "Loslegen",
+    "title": "Bereit für dein",
+    "titleAccent": "Karriere-Upgrade?",
+    "subtitle": "Werde Teil von SMART-SEARCH-JOB und lass KI die schwere Arbeit in deiner Jobsuche übernehmen.",
+    "primary": "Jetzt starten",
+    "secondary": "Mehr erfahren"
+  },
+  "footer": {
+    "tagline": "Eine KI-gestützte internationale Jobsuch- und Bewerbungsplattform für die Zukunft der Arbeit.",
+    "platform": "Plattform",
+    "resources": "Ressourcen",
+    "products": {
+      "home": "Start",
+      "profile": "Profil",
+      "matching": "Matching",
+      "applications": "Bewerbungen"
+    },
+    "resourcesList": {
+      "help": "Hilfezentrum",
+      "contact": "Kontakt",
+      "privacy": "Datenschutz",
+      "terms": "AGB"
+    },
+    "rights": "Alle Rechte vorbehalten.",
+    "statusLive": "System online"
   }
 }

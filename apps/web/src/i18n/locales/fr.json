@@ -8,5 +8,100 @@
   "loading": {
     "title": "Chargement",
     "description": "Veuillez patienter..."
+  },
+  "hero": {
+    "badge": "Plateforme de carrière propulsée par l'IA",
+    "title": {
+      "prefix": "Trouvez le",
+      "gradient": "poste",
+      "suffix": "parfait avec l'IA"
+    },
+    "subtitle": "SMART-SEARCH-JOB est une plateforme internationale de recherche d'emploi et de candidature propulsée par l'IA. Créez votre profil, découvrez des opportunités, trouvez des postes idéaux et créez des candidatures personnalisées.",
+    "ctaPrimary": "Explorer la plateforme",
+    "ctaSecondary": "Voir les fonctionnalités",
+    "stats": {
+      "languages": "Langues",
+      "matching": "Matching IA",
+      "rtl": "RTL prêt"
+    }
+  },
+  "how": {
+    "eyebrow": "Comment ça marche",
+    "title": "Du profil à la candidature en quatre étapes",
+    "subtitle": "Un parcours clair de la construction de votre identité professionnelle jusqu'à votre prochain poste.",
+    "steps": {
+      "build": {
+        "title": "Créez votre profil",
+        "description": "Créez un profil professionnel avec vos compétences, expériences et préférences de carrière."
+      },
+      "discover": {
+        "title": "Découvrez des postes",
+        "description": "Explorez un flux mondial d'opportunités avec un filtrage intelligent."
+      },
+      "matched": {
+        "title": "Obtenez des correspondances",
+        "description": "L'IA analyse votre profil par rapport aux postes pour révéler les meilleures correspondances."
+      },
+      "apply": {
+        "title": "Postulez intelligemment",
+        "description": "Générez des CV, lettres de motivation et messages personnalisés avec l'aide de l'IA."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Capacités",
+    "title": "Une plateforme conçue pour l'avenir du travail",
+    "subtitle": "Tout ce qu'il faut pour faire avancer votre carrière — dans un espace de travail moderne.",
+    "aiMatching": {
+      "title": "Matching de compétences IA",
+      "description": "Des algorithmes intelligents comparent votre profil aux exigences des postes pour des correspondances précises et transparentes."
+    },
+    "globalJobs": {
+      "title": "Flux d'emplois mondial",
+      "description": "Connectez-vous à des sources d'emplois dans le monde entier avec normalisation et déduplication."
+    },
+    "smartApps": {
+      "title": "Candidatures intelligentes",
+      "description": "Générez des documents adaptés à chaque poste et suivez chaque candidature dans un tableau de bord."
+    },
+    "careerAssistant": {
+      "title": "Assistant de carrière",
+      "description": "Un assistant IA qui répond à vos questions et guide votre recherche d'emploi."
+    },
+    "profileAI": {
+      "title": "Intelligence de profil",
+      "description": "Des analyses et suggestions pour renforcer votre présence professionnelle et votre visibilité."
+    },
+    "privacy": {
+      "title": "Confidentialité d'abord",
+      "description": "Vos données sont protégées par une sécurité au niveau des lignes avec un contrôle d'accès par propriétaire."
+    }
+  },
+  "cta": {
+    "badge": "Commencer",
+    "title": "Prêt à lancer votre",
+    "titleAccent": "évolution de carrière ?",
+    "subtitle": "Rejoignez SMART-SEARCH-JOB et laissez l'IA faire le travail lourd dans votre recherche d'emploi.",
+    "primary": "Commencer l'exploration",
+    "secondary": "En savoir plus"
+  },
+  "footer": {
+    "tagline": "Une plateforme internationale de recherche d'emploi et de candidature propulsée par l'IA pour l'avenir du travail.",
+    "platform": "Plateforme",
+    "resources": "Ressources",
+    "products": {
+      "home": "Accueil",
+      "profile": "Profil",
+      "matching": "Correspondances",
+      "applications": "Candidatures"
+    },
+    "resourcesList": {
+      "help": "Centre d'aide",
+      "contact": "Contact",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation"
+    },
+    "rights": "Tous droits réservés.",
+    "statusLive": "Système en ligne"
   }
 }

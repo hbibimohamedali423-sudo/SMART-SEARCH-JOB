@@ -8,5 +8,100 @@
   "loading": {
     "title": "Cargando",
     "description": "Por favor espera..."
+  },
+  "hero": {
+    "badge": "Plataforma de carrera impulsada por IA",
+    "title": {
+      "prefix": "Encuentra el",
+      "gradient": "empleo",
+      "suffix": "perfecto con IA"
+    },
+    "subtitle": "SMART-SEARCH-JOB es una plataforma internacional de búsqueda de empleo y solicitudes impulsada por IA. Crea tu perfil, descubre oportunidades, encuentra los empleos ideales y crea solicitudes personalizadas.",
+    "ctaPrimary": "Explorar la plataforma",
+    "ctaSecondary": "Ver funciones",
+    "stats": {
+      "languages": "Idiomas",
+      "matching": "Coincidencia IA",
+      "rtl": "Listo RTL"
+    }
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "title": "Del perfil a la solicitud en cuatro pasos",
+    "subtitle": "Un camino claro desde la construcción de tu identidad profesional hasta tu próximo puesto.",
+    "steps": {
+      "build": {
+        "title": "Crea tu perfil",
+        "description": "Crea un perfil profesional con tus habilidades, experiencia y preferencias de carrera."
+      },
+      "discover": {
+        "title": "Descubre empleos",
+        "description": "Explora un flujo global de oportunidades con filtrado inteligente."
+      },
+      "matched": {
+        "title": "Obtén coincidencias",
+        "description": "La IA analiza tu perfil frente a los puestos para revelar las mejores coincidencias."
+      },
+      "apply": {
+        "title": "Postula mejor",
+        "description": "Genera CV, cartas de presentación y mensajes personalizados con la ayuda de la IA."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Capacidades",
+    "title": "Una plataforma construida para el futuro del trabajo",
+    "subtitle": "Todo lo que necesitas para avanzar en tu carrera — en un espacio de trabajo moderno.",
+    "aiMatching": {
+      "title": "Coincidencia de habilidades IA",
+      "description": "Algoritmos inteligentes comparan tu perfil con los requisitos del puesto para coincidencias precisas y transparentes."
+    },
+    "globalJobs": {
+      "title": "Flujo de empleo global",
+      "description": "Conéctate a fuentes de empleo en todo el mundo con normalización y deduplicación."
+    },
+    "smartApps": {
+      "title": "Solicitudes inteligentes",
+      "description": "Genera materiales específicos para cada puesto y rastrea cada solicitud en un panel."
+    },
+    "careerAssistant": {
+      "title": "Asistente de carrera",
+      "description": "Un asistente de IA que responde preguntas y guía tu búsqueda de empleo."
+    },
+    "profileAI": {
+      "title": "Inteligencia de perfil",
+      "description": "Información y sugerencias para fortalecer tu presencia profesional y visibilidad."
+    },
+    "privacy": {
+      "title": "Privacidad primero",
+      "description": "Tus datos están protegidos con seguridad a nivel de fila y control de acceso por propiedad."
+    }
+  },
+  "cta": {
+    "badge": "Comenzar",
+    "title": "¿Listo para lanzar tu",
+    "titleAccent": "mejora de carrera?",
+    "subtitle": "Únete a SMART-SEARCH-JOB y deja que la IA haga el trabajo pesado en tu búsqueda de empleo.",
+    "primary": "Empezar a explorar",
+    "secondary": "Saber más"
+  },
+  "footer": {
+    "tagline": "Una plataforma internacional de búsqueda de empleo y solicitudes impulsada por IA para el futuro del trabajo.",
+    "platform": "Plataforma",
+    "resources": "Recursos",
+    "products": {
+      "home": "Inicio",
+      "profile": "Perfil",
+      "matching": "Coincidencias",
+      "applications": "Solicitudes"
+    },
+    "resourcesList": {
+      "help": "Centro de ayuda",
+      "contact": "Contáctanos",
+      "privacy": "Política de privacidad",
+      "terms": "Términos de servicio"
+    },
+    "rights": "Todos los derechos reservados.",
+    "statusLive": "Sistema activo"
   }
 }

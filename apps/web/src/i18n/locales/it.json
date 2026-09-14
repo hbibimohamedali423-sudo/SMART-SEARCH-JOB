@@ -8,5 +8,100 @@
   "loading": {
     "title": "Caricamento",
     "description": "Attendi..."
+  },
+  "hero": {
+    "badge": "Piattaforma di carriera basata sull'IA",
+    "title": {
+      "prefix": "Trova il",
+      "gradient": "lavoro",
+      "suffix": "perfetto con l'IA"
+    },
+    "subtitle": "SMART-SEARCH-JOB è una piattaforma internazionale di ricerca di lavoro e candidatura basata sull'IA. Crea il tuo profilo, scopri opportunità, trova i lavori ideali e crea candidature personalizzate.",
+    "ctaPrimary": "Esplora la piattaforma",
+    "ctaSecondary": "Vedi le funzionalità",
+    "stats": {
+      "languages": "Lingue",
+      "matching": "Match IA",
+      "rtl": "Pronto RTL"
+    }
+  },
+  "how": {
+    "eyebrow": "Come funziona",
+    "title": "Dal profilo alla candidatura in quattro passi",
+    "subtitle": "Un percorso chiaro dalla tua identità professionale al tuo prossimo ruolo.",
+    "steps": {
+      "build": {
+        "title": "Crea il tuo profilo",
+        "description": "Crea un profilo professionale con competenze, esperienze e preferenze di carriera."
+      },
+      "discover": {
+        "title": "Scopri i lavori",
+        "description": "Esplora un flusso globale di opportunità con filtri intelligenti."
+      },
+      "matched": {
+        "title": "Ottieni il match",
+        "description": "L'IA analizza il tuo profilo rispetto ai ruoli per evidenziare le migliori corrispondenze."
+      },
+      "apply": {
+        "title": "Candida meglio",
+        "description": "Genera CV, lettere di presentazione e messaggi su misura con l'assistenza dell'IA."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Funzionalità",
+    "title": "Una piattaforma costruita per il futuro del lavoro",
+    "subtitle": "Tutto ciò che serve per far avanzare la tua carriera — in un'unica area di lavoro moderna.",
+    "aiMatching": {
+      "title": "Match di competenze IA",
+      "description": "Algoritmi intelligenti confrontano il tuo profilo con i requisiti del ruolo per corrispondenze precise e trasparenti."
+    },
+    "globalJobs": {
+      "title": "Flusso di lavoro globale",
+      "description": "Connettiti a fonti di lavoro in tutto il mondo con normalizzazione e deduplicazione."
+    },
+    "smartApps": {
+      "title": "Candidature intelligenti",
+      "description": "Genera materiali specifici per ogni ruolo e monitora ogni candidatura in un'unica dashboard."
+    },
+    "careerAssistant": {
+      "title": "Assistente di carriera",
+      "description": "Un assistente IA che risponde alle domande e guida la tua ricerca di lavoro."
+    },
+    "profileAI": {
+      "title": "Intelligenza del profilo",
+      "description": "Approfondimenti e suggerimenti per rafforzare la tua presenza professionale e la visibilità."
+    },
+    "privacy": {
+      "title": "Privacy prima di tutto",
+      "description": "I tuoi dati sono protetti da sicurezza a livello di riga con accesso basato sulla proprietà."
+    }
+  },
+  "cta": {
+    "badge": "Inizia",
+    "title": "Pronto a lanciare il tuo",
+    "titleAccent": "upgrade di carriera?",
+    "subtitle": "Unisciti a SMART-SEARCH-JOB e lascia che l'IA faccia il lavoro pesante nella tua ricerca di lavoro.",
+    "primary": "Inizia a esplorare",
+    "secondary": "Scopri di più"
+  },
+  "footer": {
+    "tagline": "Una piattaforma internazionale di ricerca di lavoro e candidatura basata sull'IA per il futuro del lavoro.",
+    "platform": "Piattaforma",
+    "resources": "Risorse",
+    "products": {
+      "home": "Home",
+      "profile": "Profilo",
+      "matching": "Corrispondenze",
+      "applications": "Candidature"
+    },
+    "resourcesList": {
+      "help": "Centro assistenza",
+      "contact": "Contattaci",
+      "privacy": "Informativa sulla privacy",
+      "terms": "Termini di servizio"
+    },
+    "rights": "Tutti i diritti riservati.",
+    "statusLive": "Sistema attivo"
   }
 }

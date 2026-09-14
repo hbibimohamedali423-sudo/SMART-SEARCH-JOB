@@ -4,9 +4,9 @@ interface SpinnerProps {
 }
 
 const sizeClasses = {
-  sm: 'h-4 w-4 border-2',
-  md: 'h-6 w-6 border-2',
-  lg: 'h-8 w-8 border-3',
+  sm: 'h-4 w-4 border-2 border-current border-t-transparent text-primary-400',
+  md: 'h-6 w-6 border-2 border-current border-t-transparent text-primary-400',
+  lg: 'h-8 w-8 border-[3px] border-current border-t-transparent text-primary-400',
 }
 
 const textSizeClasses = {
@@ -18,7 +18,7 @@ const textSizeClasses = {
 export function Spinner({ size = 'md', className = '' }: SpinnerProps) {
   return (
     <div
-      className={`animate-spin rounded-full border-neutral-200 border-t-neutral-600 ${sizeClasses[size]} ${className}`}
+      className={`animate-spin rounded-full ${sizeClasses[size]} ${className}`}
       role="status"
       aria-label="Loading"
     >
@@ -32,7 +32,7 @@ export function LoadingSpinner({ size = 'md', text, className = '' }: SpinnerPro
     <div className={`flex items-center gap-2 ${className}`}>
       <Spinner size={size} />
       {text && (
-        <span className={`text-neutral-600 ${textSizeClasses[size]}`}>{text}</span>
+        <span className={`text-neutral-400 ${textSizeClasses[size]}`}>{text}</span>
       )}
     </div>
   )

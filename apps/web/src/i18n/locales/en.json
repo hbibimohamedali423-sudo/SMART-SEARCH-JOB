@@ -8,5 +8,100 @@
   "loading": {
     "title": "Loading",
     "description": "Please wait..."
+  },
+  "hero": {
+    "badge": "AI-Powered Career Platform",
+    "title": {
+      "prefix": "Find Your Perfect",
+      "gradient": "Job",
+      "suffix": "with AI"
+    },
+    "subtitle": "SMART-SEARCH-JOB is an AI-powered international job search and application platform. Build your profile, discover opportunities, get matched with ideal jobs, and create personalized applications.",
+    "ctaPrimary": "Explore the Platform",
+    "ctaSecondary": "See Features",
+    "stats": {
+      "languages": "Languages",
+      "matching": "AI Matching",
+      "rtl": "RTL Ready"
+    }
+  },
+  "how": {
+    "eyebrow": "How It Works",
+    "title": "From profile to application in four steps",
+    "subtitle": "A clear path from building your professional identity to landing your next role.",
+    "steps": {
+      "build": {
+        "title": "Build Your Profile",
+        "description": "Create a professional profile with your skills, experience, and career preferences."
+      },
+      "discover": {
+        "title": "Discover Jobs",
+        "description": "Explore a global stream of opportunities with smart filtering."
+      },
+      "matched": {
+        "title": "Get Matched",
+        "description": "AI analyzes your profile against roles to surface the best fits."
+      },
+      "apply": {
+        "title": "Apply Smarter",
+        "description": "Generate tailored CVs, cover letters, and messages with AI assistance."
+      }
+    }
+  },
+  "features": {
+    "eyebrow": "Capabilities",
+    "title": "A platform built for the future of work",
+    "subtitle": "Everything you need to move your career forward — in one modern workspace.",
+    "aiMatching": {
+      "title": "AI Skill Matching",
+      "description": "Smart algorithms compare your profile to job requirements for accurate, transparent matches."
+    },
+    "globalJobs": {
+      "title": "Global Job Stream",
+      "description": "Connect to job sources worldwide with normalization and deduplication."
+    },
+    "smartApps": {
+      "title": "Smart Applications",
+      "description": "Generate job-specific materials and track every application in one dashboard."
+    },
+    "careerAssistant": {
+      "title": "Career Assistant",
+      "description": "An AI assistant that answers questions and guides your job search journey."
+    },
+    "profileAI": {
+      "title": "Profile Intelligence",
+      "description": "Insights and suggestions to strengthen your professional presence and visibility."
+    },
+    "privacy": {
+      "title": "Privacy First",
+      "description": "Your data is protected by row-level security with ownership-based access control."
+    }
+  },
+  "cta": {
+    "badge": "Get Started",
+    "title": "Ready to launch your",
+    "titleAccent": "career upgrade?",
+    "subtitle": "Join SMART-SEARCH-JOB and let AI do the heavy lifting in your job search.",
+    "primary": "Start Exploring",
+    "secondary": "Learn More"
+  },
+  "footer": {
+    "tagline": "An AI-powered international job search and application platform built for the future of work.",
+    "platform": "Platform",
+    "resources": "Resources",
+    "products": {
+      "home": "Home",
+      "profile": "Profile",
+      "matching": "Matching",
+      "applications": "Applications"
+    },
+    "resourcesList": {
+      "help": "Help Center",
+      "contact": "Contact Us",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    },
+    "rights": "All rights reserved.",
+    "statusLive": "System Live"
   }
 }
