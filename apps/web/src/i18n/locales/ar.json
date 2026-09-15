@@ -3,7 +3,11 @@
     "appName": "SMART-SEARCH-JOB"
   },
   "nav": {
-    "home": "الرئيسية"
+    "home": "الرئيسية",
+    "login": "تسجيل الدخول",
+    "signup": "إنشاء حساب",
+    "logout": "تسجيل الخروج",
+    "user": "مستخدم"
   },
   "loading": {
     "title": "جاري التحميل",
@@ -103,5 +107,79 @@
     },
     "rights": "جميع الحقوق محفوظة.",
     "statusLive": "النظام يعمل"
+  },
+  "auth": {
+    "login": {
+      "title": "مرحبًا بعودتك",
+      "subtitle": "سجّل الدخول إلى حسابك",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "password": "كلمة المرور",
+      "submit": "تسجيل الدخول",
+      "noAccount": "ليس لديك حساب؟",
+      "signUpLink": "أنشئ حسابًا",
+      "forgotPassword": "نسيت كلمة المرور؟",
+      "forgotLink": "إعادة التعيين",
+      "signInLink": "تسجيل الدخول"
+    },
+    "signup": {
+      "title": "أنشئ حسابك",
+      "subtitle": "ابدأ مسيرتك المهنية",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "password": "كلمة المرور",
+      "confirmPassword": "تأكيد كلمة المرور",
+      "submit": "إنشاء الحساب",
+      "haveAccount": "لديك حساب بالفعل؟",
+      "loginLink": "تسجيل الدخول"
+    },
+    "errors": {
+      "general": "حدث خطأ ما",
+      "emailRequired": "البريد الإلكتروني مطلوب",
+      "emailInvalid": "أدخل بريدًا إلكترونيًا صحيحًا",
+      "passwordMin": "يجب ألا تقل كلمة المرور عن 8 أحرف",
+      "passwordMax": "يجب ألا تزيد كلمة المرور عن 128 حرفًا",
+      "passwordLower": "يجب أن تحتوي على حرف صغير",
+      "passwordUpper": "يجب أن تحتوي على حرف كبير",
+      "passwordNumber": "يجب أن تحتوي على رقم",
+      "confirmPasswordRequired": "أكد كلمة المرور",
+      "passwordRequired": "كلمة المرور مطلوبة",
+      "passwordMismatch": "كلمتا المرور غير متطابقتين"
+    },
+    "forgot": {
+      "title": "إعادة تعيين كلمة المرور",
+      "subtitle": "أدخل بريدك الإلكتروني لاستلام رابط",
+      "email": "البريد الإلكتروني",
+      "emailPlaceholder": "you@example.com",
+      "submit": "إرسال رابط إعادة التعيين",
+      "resetEmailSent": "إذا كان الحساب موجودًا، فقد تم إرسال رابط.",
+      "checkInbox": "تحقق من بريدك الوارد للخطوات التالية.",
+      "backToLogin": "العودة إلى تسجيل الدخول"
+    },
+    "reset": {
+      "title": "تعيين كلمة مرور جديدة",
+      "subtitle": "اختر كلمة مرور جديدة لحسابك",
+      "newPassword": "كلمة المرور الجديدة",
+      "confirmPassword": "تأكيد كلمة المرور الجديدة",
+      "submit": "تحديث كلمة المرور",
+      "successTitle": "تم تحديث كلمة المرور",
+      "successDescription": "تم تغيير كلمة المرور بنجاح. يمكنك الآن تسجيل الدخول.",
+      "backToLogin": "العودة إلى تسجيل الدخول",
+      "cancel": "إلغاء",
+      "invalidTitle": "الرابط غير صالح أو منتهي الصلاحية",
+      "invalidDescription": "رابط إعادة تعيين كلمة المرور غير صالح أو منتهي الصلاحية. يرجى طلب رابط جديد.",
+      "requestNewLink": "طلب رابط جديد"
+    },
+    "verification": {
+      "title": "تحقق من بريدك الإلكتروني",
+      "description": "أرسلنا رابط تحقق إلى بريدك الإلكتروني. يرجى تأكيده قبل المتابعة.",
+      "signupDescription": "أرسلنا رابط تأكيد إلى بريدك الوارد. تحقق من بريدك الإلكتروني لتفعيل الحساب.",
+      "resend": "إعادة إرسال البريد",
+      "resent": "تمت إعادة إرسال رابط التحقق. تحقق من بريدك الوارد.",
+      "resendError": "تعذر إرسال البريد. حاول لاحقًا.",
+      "backToLogin": "العودة إلى تسجيل الدخول"
+    },
+    "showPassword": "إظهار",
+    "hidePassword": "إخفاء"
   }
 }

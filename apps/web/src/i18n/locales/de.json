@@ -3,7 +3,11 @@
     "appName": "SMART-SEARCH-JOB"
   },
   "nav": {
-    "home": "Start"
+    "home": "Start",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "logout": "Abmelden",
+    "user": "Benutzer"
   },
   "loading": {
     "title": "Wird geladen",
@@ -103,5 +107,79 @@
     },
     "rights": "Alle Rechte vorbehalten.",
     "statusLive": "System online"
+  },
+  "auth": {
+    "login": {
+      "title": "Willkommen zurück",
+      "subtitle": "Melde dich in deinem Konto an",
+      "email": "E-Mail",
+      "emailPlaceholder": "du@beispiel.de",
+      "password": "Passwort",
+      "submit": "Anmelden",
+      "noAccount": "Noch kein Konto?",
+      "signUpLink": "Konto erstellen",
+      "forgotPassword": "Passwort vergessen?",
+      "forgotLink": "Zurücksetzen",
+      "signInLink": "Anmelden"
+    },
+    "signup": {
+      "title": "Konto erstellen",
+      "subtitle": "Starte deine Karriere",
+      "email": "E-Mail",
+      "emailPlaceholder": "du@beispiel.de",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "submit": "Registrieren",
+      "haveAccount": "Bereits ein Konto?",
+      "loginLink": "Anmelden"
+    },
+    "errors": {
+      "general": "Etwas ist schiefgelaufen",
+      "emailRequired": "E-Mail ist erforderlich",
+      "emailInvalid": "Gib eine gültige E-Mail-Adresse ein",
+      "passwordMin": "Das Passwort muss mindestens 8 Zeichen lang sein",
+      "passwordMax": "Das Passwort darf höchstens 128 Zeichen lang sein",
+      "passwordLower": "Muss einen Kleinbuchstaben enthalten",
+      "passwordUpper": "Muss einen Großbuchstaben enthalten",
+      "passwordNumber": "Muss eine Zahl enthalten",
+      "confirmPasswordRequired": "Bestätige dein Passwort",
+      "passwordRequired": "Passwort ist erforderlich",
+      "passwordMismatch": "Die Passwörter stimmen nicht überein"
+    },
+    "forgot": {
+      "title": "Passwort zurücksetzen",
+      "subtitle": "Gib deine E-Mail ein, um einen Link zu erhalten",
+      "email": "E-Mail",
+      "emailPlaceholder": "du@beispiel.de",
+      "submit": "Link senden",
+      "resetEmailSent": "Falls ein Konto existiert, wurde ein Link gesendet.",
+      "checkInbox": "Prüfe deinen Posteingang für die nächsten Schritte.",
+      "backToLogin": "Zurück zur Anmeldung"
+    },
+    "reset": {
+      "title": "Neues Passwort festlegen",
+      "subtitle": "Wähle ein neues Passwort für dein Konto",
+      "newPassword": "Neues Passwort",
+      "confirmPassword": "Neues Passwort bestätigen",
+      "submit": "Passwort aktualisieren",
+      "successTitle": "Passwort aktualisiert",
+      "successDescription": "Dein Passwort wurde erfolgreich geändert. Du kannst dich jetzt anmelden.",
+      "backToLogin": "Zurück zur Anmeldung",
+      "cancel": "Abbrechen",
+      "invalidTitle": "Link ungültig oder abgelaufen",
+      "invalidDescription": "Dieser Link zum Zurücksetzen des Passworts ist ungültig oder abgelaufen. Bitte fordere einen neuen an.",
+      "requestNewLink": "Neuen Link anfordern"
+    },
+    "verification": {
+      "title": "E-Mail verifizieren",
+      "description": "Wir haben einen Verifizierungslink an deine E-Mail gesendet. Bitte verifiziere sie, bevor du fortfährst.",
+      "signupDescription": "Wir haben einen Bestätigungslink an deinen Posteingang gesendet. Verifiziere deine E-Mail, um dein Konto zu aktivieren.",
+      "resend": "E-Mail erneut senden",
+      "resent": "Verifizierungs-E-Mail erneut gesendet. Prüfe deinen Posteingang.",
+      "resendError": "Die E-Mail konnte nicht gesendet werden. Versuche es später erneut.",
+      "backToLogin": "Zurück zur Anmeldung"
+    },
+    "showPassword": "Anzeigen",
+    "hidePassword": "Ausblenden"
   }
 }

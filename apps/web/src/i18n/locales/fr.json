@@ -3,7 +3,11 @@
     "appName": "SMART-SEARCH-JOB"
   },
   "nav": {
-    "home": "Accueil"
+    "home": "Accueil",
+    "login": "Se connecter",
+    "signup": "S'inscrire",
+    "logout": "Se déconnecter",
+    "user": "Utilisateur"
   },
   "loading": {
     "title": "Chargement",
@@ -103,5 +107,79 @@
     },
     "rights": "Tous droits réservés.",
     "statusLive": "Système en ligne"
+  },
+  "auth": {
+    "login": {
+      "title": "Bon retour",
+      "subtitle": "Connectez-vous à votre compte",
+      "email": "E-mail",
+      "emailPlaceholder": "vous@exemple.fr",
+      "password": "Mot de passe",
+      "submit": "Se connecter",
+      "noAccount": "Pas encore de compte ?",
+      "signUpLink": "En créer un",
+      "forgotPassword": "Mot de passe oublié ?",
+      "forgotLink": "Réinitialiser",
+      "signInLink": "Se connecter"
+    },
+    "signup": {
+      "title": "Créer votre compte",
+      "subtitle": "Démarrez votre carrière",
+      "email": "E-mail",
+      "emailPlaceholder": "vous@exemple.fr",
+      "password": "Mot de passe",
+      "confirmPassword": "Confirmer le mot de passe",
+      "submit": "S'inscrire",
+      "haveAccount": "Déjà un compte ?",
+      "loginLink": "Se connecter"
+    },
+    "errors": {
+      "general": "Une erreur est survenue",
+      "emailRequired": "L'e-mail est requis",
+      "emailInvalid": "Saisissez une adresse e-mail valide",
+      "passwordMin": "Le mot de passe doit compter au moins 8 caractères",
+      "passwordMax": "Le mot de passe doit compter au plus 128 caractères",
+      "passwordLower": "Doit contenir une lettre minuscule",
+      "passwordUpper": "Doit contenir une lettre majuscule",
+      "passwordNumber": "Doit contenir un chiffre",
+      "confirmPasswordRequired": "Confirmez votre mot de passe",
+      "passwordRequired": "Le mot de passe est requis",
+      "passwordMismatch": "Les mots de passe ne correspondent pas"
+    },
+    "forgot": {
+      "title": "Réinitialiser votre mot de passe",
+      "subtitle": "Saisissez votre e-mail pour recevoir un lien",
+      "email": "E-mail",
+      "emailPlaceholder": "vous@exemple.fr",
+      "submit": "Envoyer le lien",
+      "resetEmailSent": "Si un compte existe, un lien a été envoyé.",
+      "checkInbox": "Consultez votre boîte de réception pour la suite.",
+      "backToLogin": "Retour à la connexion"
+    },
+    "reset": {
+      "title": "Définir un nouveau mot de passe",
+      "subtitle": "Choisissez un nouveau mot de passe",
+      "newPassword": "Nouveau mot de passe",
+      "confirmPassword": "Confirmer le nouveau mot de passe",
+      "submit": "Mettre à jour",
+      "successTitle": "Mot de passe mis à jour",
+      "successDescription": "Votre mot de passe a été modifié avec succès. Vous pouvez vous connecter.",
+      "backToLogin": "Retour à la connexion",
+      "cancel": "Annuler",
+      "invalidTitle": "Lien invalide ou expiré",
+      "invalidDescription": "Ce lien de réinitialisation est invalide ou a expiré. Veuillez en demander un nouveau.",
+      "requestNewLink": "Demander un nouveau lien"
+    },
+    "verification": {
+      "title": "Vérifiez votre e-mail",
+      "description": "Nous avons envoyé un lien de vérification à votre adresse e-mail. Veuillez le confirmer.",
+      "signupDescription": "Nous avons envoyé un lien de confirmation à votre boîte de réception. Vérifiez votre e-mail pour activer votre compte.",
+      "resend": "Renvoyer l'e-mail",
+      "resent": "E-mail de vérification renvoyé. Consultez votre boîte de réception.",
+      "resendError": "Impossible de renvoyer l'e-mail. Réessayez plus tard.",
+      "backToLogin": "Retour à la connexion"
+    },
+    "showPassword": "Afficher",
+    "hidePassword": "Masquer"
   }
 }

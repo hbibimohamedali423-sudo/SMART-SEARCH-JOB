@@ -3,7 +3,11 @@
     "appName": "SMART-SEARCH-JOB"
   },
   "nav": {
-    "home": "Home"
+    "home": "Home",
+    "login": "Accedi",
+    "signup": "Registrati",
+    "logout": "Esci",
+    "user": "Utente"
   },
   "loading": {
     "title": "Caricamento",
@@ -103,5 +107,79 @@
     },
     "rights": "Tutti i diritti riservati.",
     "statusLive": "Sistema attivo"
+  },
+  "auth": {
+    "login": {
+      "title": "Bentornato",
+      "subtitle": "Accedi al tuo account",
+      "email": "Email",
+      "emailPlaceholder": "tu@esempio.it",
+      "password": "Password",
+      "submit": "Accedi",
+      "noAccount": "Non hai un account?",
+      "signUpLink": "Creane uno",
+      "forgotPassword": "Hai dimenticato la password?",
+      "forgotLink": "Reimpostala",
+      "signInLink": "Accedi"
+    },
+    "signup": {
+      "title": "Crea il tuo account",
+      "subtitle": "Inizia la tua carriera",
+      "email": "Email",
+      "emailPlaceholder": "tu@esempio.it",
+      "password": "Password",
+      "confirmPassword": "Conferma password",
+      "submit": "Registrati",
+      "haveAccount": "Hai già un account?",
+      "loginLink": "Accedi"
+    },
+    "errors": {
+      "general": "Qualcosa è andato storto",
+      "emailRequired": "L'email è obbligatoria",
+      "emailInvalid": "Inserisci un indirizzo email valido",
+      "passwordMin": "La password deve avere almeno 8 caratteri",
+      "passwordMax": "La password deve avere al massimo 128 caratteri",
+      "passwordLower": "Deve contenere una lettera minuscola",
+      "passwordUpper": "Deve contenere una lettera maiuscola",
+      "passwordNumber": "Deve contenere un numero",
+      "confirmPasswordRequired": "Conferma la password",
+      "passwordRequired": "La password è obbligatoria",
+      "passwordMismatch": "Le password non coincidono"
+    },
+    "forgot": {
+      "title": "Reimposta la password",
+      "subtitle": "Inserisci la tua email per ricevere un link",
+      "email": "Email",
+      "emailPlaceholder": "tu@esempio.it",
+      "submit": "Invia link",
+      "resetEmailSent": "Se l'account esiste, è stato inviato un link.",
+      "checkInbox": "Controlla la tua casella di posta per i prossimi passaggi.",
+      "backToLogin": "Torna al login"
+    },
+    "reset": {
+      "title": "Imposta una nuova password",
+      "subtitle": "Scegli una nuova password per il tuo account",
+      "newPassword": "Nuova password",
+      "confirmPassword": "Conferma nuova password",
+      "submit": "Aggiorna password",
+      "successTitle": "Password aggiornata",
+      "successDescription": "La tua password è stata modificata con successo. Ora puoi accedere.",
+      "backToLogin": "Torna al login",
+      "cancel": "Annulla",
+      "invalidTitle": "Link non valido o scaduto",
+      "invalidDescription": "Questo link per il reset della password non è valido o è scaduto. Richiedine uno nuovo.",
+      "requestNewLink": "Richiedi un nuovo link"
+    },
+    "verification": {
+      "title": "Verifica la tua email",
+      "description": "Abbiamo inviato un link di verifica alla tua email. Confermala prima di continuare.",
+      "signupDescription": "Abbiamo inviato un link di conferma alla tua casella di posta. Verifica la tua email per attivare l'account.",
+      "resend": "Reinvia email",
+      "resent": "Email di verifica inviata di nuovo. Controlla la casella di posta.",
+      "resendError": "Impossibile inviare l'email. Riprova più tardi.",
+      "backToLogin": "Torna al login"
+    },
+    "showPassword": "Mostra",
+    "hidePassword": "Nascondi"
   }
 }

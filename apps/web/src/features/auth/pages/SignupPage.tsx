@@ -1,0 +1,72 @@
+import { useState } from 'react'
+import { Link, useNavigate } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/Card'
+import { EmailVerificationNotice } from '../components/EmailVerificationNotice'
+import { SignupForm } from '../components/SignupForm'
+
+export function SignupPage() {
+  const { t } = useTranslation()
+  const navigate = useNavigate()
+  const [requiresVerification, setRequiresVerification] = useState(false)
+  const [submittedEmail, setSubmittedEmail] = useState<string | undefined>()
+
+  function handleSignupSuccess(needsEmailVerification: boolean, email: string) {
+    setSubmittedEmail(email)
+    if (needsEmailVerification) {
+      setRequiresVerification(true)
+    } else {
+      // Email confirmation is disabled: the account is created and the user
+      // is considered registered — go to HomePage.
+      navigate('/', { replace: true })
+    }
+  }
+
+  if (requiresVerification) {
+    return (
+      <div className="container-page py-16">
+        <div className="mx-auto w-full max-w-md">
+          <Card className="border-white/[0.08] bg-night-900/60 shadow-soft backdrop-blur-xl">
+            <CardHeader>
+              <CardTitle>{t('auth.verification.title')}</CardTitle>
+              <CardDescription>{t('auth.verification.signupDescription')}</CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <EmailVerificationNotice email={submittedEmail} />
+              <p className="text-sm text-neutral-400">
+                {t('auth.verification.backToLogin')}{' '}
+                <Link to="/login" className="text-primary-300 hover:text-primary-200">
+                  {t('auth.login.signInLink')}
+                </Link>
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    )
+  }
+
+  return (
+    <div className="container-page py-16">
+      <div className="mx-auto w-full max-w-md">
+        <Card className="border-white/[0.08] bg-night-900/60 shadow-soft backdrop-blur-xl">
+          <CardHeader>
+            <CardTitle>{t('auth.signup.title')}</CardTitle>
+            <CardDescription>{t('auth.signup.subtitle')}</CardDescription>
+          </CardHeader>
+          <CardContent>
+            <SignupForm
+              onSuccess={handleSignupSuccess}
+            />
+            <p className="mt-6 border-t border-white/[0.06] pt-5 text-sm text-neutral-400">
+              {t('auth.signup.haveAccount')}{' '}
+              <Link to="/login" className="text-primary-300 hover:text-primary-200">
+                {t('auth.signup.loginLink')}
+              </Link>
+            </p>
+          </CardContent>
+        </Card>
+      </div>
+    </div>
+  )
+}
