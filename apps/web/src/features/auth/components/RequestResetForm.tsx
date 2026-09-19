@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/Button'
 import { Input } from '@/components/ui/Input'
 import { Label } from '@/components/ui/Label'
-import { sendPasswordResetEmail } from '../services/authService'
+import { getAuthErrorMessageKey, sendPasswordResetEmail } from '../services/authService'
 import { forgotPasswordSchema, type ForgotPasswordFormValues } from '../validation/authSchemas'
 
 interface RequestResetFormProps {
@@ -33,7 +33,7 @@ export function RequestResetForm({ onSent }: RequestResetFormProps) {
     // Deliberately never disclose whether the account exists.
     const { error } = await sendPasswordResetEmail(values.email)
     if (error) {
-      setFormError(error.message)
+      setFormError(t(getAuthErrorMessageKey(error.message)))
       setStatus('error')
       return
     }

@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next'
 import { Button } from '@/components/ui/Button'
 import { PasswordField } from './PasswordField'
 import { useAuth } from '../hooks/useAuth'
-import { updateUserPassword } from '../services/authService'
+import { getAuthErrorMessageKey, updateUserPassword } from '../services/authService'
 import { resetPasswordSchema, type ResetPasswordFormValues } from '../validation/authSchemas'
 
 interface ResetPasswordFormProps {
@@ -34,7 +34,7 @@ export function ResetPasswordForm({ onSuccess }: ResetPasswordFormProps) {
 
     const { error } = await updateUserPassword({ password: values.password })
     if (error) {
-      setFormError(error.message)
+      setFormError(t(getAuthErrorMessageKey(error.message)))
       return
     }
     onSuccess?.()

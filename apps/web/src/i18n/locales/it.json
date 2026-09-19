@@ -144,7 +144,12 @@
       "passwordNumber": "Deve contenere un numero",
       "confirmPasswordRequired": "Conferma la password",
       "passwordRequired": "La password è obbligatoria",
-      "passwordMismatch": "Le password non coincidono"
+      "passwordMismatch": "Le password non coincidono",
+      "invalidCredentials": "Credenziali di accesso non valide",
+      "userExists": "Esiste già un account con questa email.",
+      "rateLimit": "Sono state inviate troppe email. Riprova più tardi.",
+      "invalidResetToken": "Questo link di reimpostazione non è valido o è scaduto.",
+      "samePassword": "La nuova password deve essere diversa dalla precedente."
     },
     "forgot": {
       "title": "Reimposta la password",

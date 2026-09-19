@@ -144,7 +144,12 @@
       "passwordNumber": "Must include a number",
       "confirmPasswordRequired": "Confirm your password",
       "passwordRequired": "Password is required",
-      "passwordMismatch": "Passwords do not match"
+      "passwordMismatch": "Passwords do not match",
+      "invalidCredentials": "Invalid login credentials",
+      "userExists": "An account with this email already exists.",
+      "rateLimit": "Too many emails have been sent. Please try again later.",
+      "invalidResetToken": "This reset link is invalid or has expired.",
+      "samePassword": "The new password must be different from the old one."
     },
     "forgot": {
       "title": "Reset your password",

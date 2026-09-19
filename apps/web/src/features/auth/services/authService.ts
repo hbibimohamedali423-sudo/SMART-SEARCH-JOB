@@ -15,10 +15,17 @@ export async function signInWithEmail({ email, password }: SignInParams) {
   return { data, error }
 }
 
+// After email confirmation Supabase redirects to the current app origin, so the
+// flow works on localhost (http://localhost:3000) and in any other environment.
+const confirmationRedirectTo = window.location.origin
+
 export async function signUpWithEmail({ email, password }: SignUpParams) {
   const { data, error } = await supabase.auth.signUp({
     email,
     password,
+    options: {
+      emailRedirectTo: confirmationRedirectTo,
+    },
   })
   return { data, error }
 }
@@ -60,6 +67,28 @@ export async function resendVerificationEmail(email: string) {
   const { data, error } = await supabase.auth.resend({
     type: 'signup',
     email,
+    options: {
+      emailRedirectTo: confirmationRedirectTo,
+    },
   })
   return { data, error }
+}
+
+/**
+ * Maps raw Supabase error messages (English) to i18n keys to keep
+ * localized forms free of mixed-language errors. Unknown messages fall
+ * back to a generic key. Keys are lowercased because GoTrue messages use
+ * inconsistent casing (e.g. "email rate limit exceeded").
+ */
+const AUTH_ERROR_KEYS: Record<string, string> = {
+  'invalid login credentials': 'auth.errors.invalidCredentials',
+  'user already registered': 'auth.errors.userExists',
+  'email rate limit exceeded': 'auth.errors.rateLimit',
+  'token has expired or is invalid': 'auth.errors.invalidResetToken',
+  'new password should be different from the old password.': 'auth.errors.samePassword',
+}
+
+export function getAuthErrorMessageKey(message: string | null | undefined): string {
+  if (!message) return 'auth.errors.general'
+  return AUTH_ERROR_KEYS[message.trim().toLowerCase()] ?? 'auth.errors.general'
 }

@@ -21,6 +21,7 @@ vi.mock('@/lib/supabase', () => ({
 }))
 
 import {
+  getAuthErrorMessageKey,
   getCurrentSession,
   getCurrentUser,
   onAuthStateChange,
@@ -49,6 +50,9 @@ describe('authService', () => {
     expect(mockSupabase.auth.signUp).toHaveBeenCalledWith({
       email: 'a@b.co',
       password: 'pass',
+      options: {
+        emailRedirectTo: window.location.origin,
+      },
     })
     expect(res.error).toBeNull()
   })
@@ -95,7 +99,20 @@ describe('authService', () => {
     expect(mockSupabase.auth.resend).toHaveBeenCalledWith({
       type: 'signup',
       email: 'a@b.co',
+      options: {
+        emailRedirectTo: window.location.origin,
+      },
     })
     expect(res.error).toBeNull()
+  })
+
+  it('getAuthErrorMessageKey maps Supabase English errors to i18n keys', () => {
+    expect(getAuthErrorMessageKey('Invalid login credentials')).toBe('auth.errors.invalidCredentials')
+    expect(getAuthErrorMessageKey('user already registered')).toBe('auth.errors.userExists')
+    expect(getAuthErrorMessageKey('email rate limit exceeded')).toBe('auth.errors.rateLimit')
+    expect(getAuthErrorMessageKey('Token has expired or is invalid')).toBe('auth.errors.invalidResetToken')
+    expect(getAuthErrorMessageKey('New password should be different from the old password.')).toBe('auth.errors.samePassword')
+    expect(getAuthErrorMessageKey('Some unknown message')).toBe('auth.errors.general')
+    expect(getAuthErrorMessageKey(null)).toBe('auth.errors.general')
   })
 })

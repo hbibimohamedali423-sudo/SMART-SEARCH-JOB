@@ -7,6 +7,7 @@ import { Input } from '@/components/ui/Input'
 import { Label } from '@/components/ui/Label'
 import { PasswordField } from './PasswordField'
 import { useAuth } from '../hooks/useAuth'
+import { getAuthErrorMessageKey } from '../services/authService'
 import { loginSchema, type LoginFormValues } from '../validation/authSchemas'
 
 interface LoginFormProps {
@@ -34,7 +35,7 @@ export function LoginForm({ onSuccess }: LoginFormProps) {
     setFormError(null)
     const result = await signIn({ email: values.email, password: values.password })
     if (result.error) {
-      setFormError(result.error)
+      setFormError(t(getAuthErrorMessageKey(result.error)))
       return
     }
     onSuccess?.()

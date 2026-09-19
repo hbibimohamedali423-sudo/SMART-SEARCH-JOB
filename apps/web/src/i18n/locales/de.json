@@ -144,7 +144,12 @@
       "passwordNumber": "Muss eine Zahl enthalten",
       "confirmPasswordRequired": "Bestätige dein Passwort",
       "passwordRequired": "Passwort ist erforderlich",
-      "passwordMismatch": "Die Passwörter stimmen nicht überein"
+      "passwordMismatch": "Die Passwörter stimmen nicht überein",
+      "invalidCredentials": "Ungültige Anmeldedaten",
+      "userExists": "Ein Konto mit dieser E-Mail existiert bereits.",
+      "rateLimit": "Zu viele E-Mails gesendet. Bitte versuche es später erneut.",
+      "invalidResetToken": "Dieser Link zum Zurücksetzen ist ungültig oder abgelaufen.",
+      "samePassword": "Das neue Passwort muss sich vom alten unterscheiden."
     },
     "forgot": {
       "title": "Passwort zurücksetzen",

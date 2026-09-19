@@ -144,7 +144,12 @@
       "passwordNumber": "يجب أن تحتوي على رقم",
       "confirmPasswordRequired": "أكد كلمة المرور",
       "passwordRequired": "كلمة المرور مطلوبة",
-      "passwordMismatch": "كلمتا المرور غير متطابقتين"
+      "passwordMismatch": "كلمتا المرور غير متطابقتين",
+      "invalidCredentials": "بيانات دخول غير صحيحة",
+      "userExists": "يوجد حساب بهذا البريد الإلكتروني بالفعل.",
+      "rateLimit": "تم إرسال عدد كبير من الرسائل. حاول لاحقًا.",
+      "invalidResetToken": "رابط إعادة التعيين غير صالح أو منتهي الصلاحية.",
+      "samePassword": "يجب أن تكون كلمة المرور الجديدة مختلفة عن القديمة."
     },
     "forgot": {
       "title": "إعادة تعيين كلمة المرور",

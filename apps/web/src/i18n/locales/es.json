@@ -144,7 +144,12 @@
       "passwordNumber": "Debe incluir un número",
       "confirmPasswordRequired": "Confirma tu contraseña",
       "passwordRequired": "La contraseña es obligatoria",
-      "passwordMismatch": "Las contraseñas no coinciden"
+      "passwordMismatch": "Las contraseñas no coinciden",
+      "invalidCredentials": "Credenciales de inicio de sesión no válidas",
+      "userExists": "Ya existe una cuenta con este correo electrónico.",
+      "rateLimit": "Se han enviado demasiados correos. Inténtalo de nuevo más tarde.",
+      "invalidResetToken": "Este enlace de restablecimiento no es válido o ha caducado.",
+      "samePassword": "La nueva contraseña debe ser diferente de la anterior."
     },
     "forgot": {
       "title": "Restablece tu contraseña",

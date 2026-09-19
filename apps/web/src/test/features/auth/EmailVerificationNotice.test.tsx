@@ -44,6 +44,9 @@ describe('EmailVerificationNotice resend (B3)', () => {
       expect(mockSupabase.auth.resend).toHaveBeenCalledWith({
         type: 'signup',
         email: 'just-signed-up@example.com',
+        options: {
+          emailRedirectTo: window.location.origin,
+        },
       })
     })
   })
